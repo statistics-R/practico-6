@@ -1,0 +1,4 @@
+"0","m3 = lm(wage ~ educ + , data = wage1)
+"
+"2","Error: unexpected ',' in ""m3 = lm(wage ~ educ + ,""
+"

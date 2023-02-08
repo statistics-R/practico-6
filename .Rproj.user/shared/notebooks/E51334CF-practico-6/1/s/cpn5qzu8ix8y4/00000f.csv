@@ -1,0 +1,5 @@
+"0","tab_corr(data)
+"
+"2","Error in stats::cor(data, method = corr.method) : 
+  supply both 'x' and 'y' or a matrix-like 'x'
+"
