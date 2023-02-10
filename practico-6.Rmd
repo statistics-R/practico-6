@@ -205,13 +205,16 @@ Hay varias diferencias entre los tres modelos que podemos advertir:
 
 - La bondad de ajuste de los tres modelos expresada a través del estadístico $R^2$ también difiere en los tres modelos, siendo mayor en el modelo 3 ($R^2$ = .22).
 
+- Mientras que en los modelos 1 y 2 los estadísticos $R^2$ y $R^2$ Ajustado (Adj. $R^2$) son equivalentes, en el modelo 3 el valor de $R^2$ (.23) y $R^2$ Ajustado (.22) difieren en .01.
+
 De ello podemos deducir que: 
 
 - Los años de escolaridad permiten explicar mejor que los años de experiencia laboral los salarios por hora promedio. Esto, porque
-  + El $R2$ del modelo 1 (.16) es mayor que el del modelo 2 (.01).
+  + El $R^2$ del modelo 1 (.16) es mayor que el del modelo 2 (.01).
   + La magnitud del coeficiente de regresión de años de escolaridad es mayor que la del coeficiente estimado para años de experiencia laboral. 
 - El efecto estimado de los años de escolaridad y años de experiencia laboral sobre los salarios por hora es positivo, tal como se planteó en la hipótesis al inicio del práctico. 
 - El modelo 3 permite explicar mejor la variabilidad de $y$ que los modelos 2 y 1.
+- El valor estimado para el estadístico $R^2$ ajustado tiende a ser penalizado cuando se incorpora más de una variable explicativa; es decir, en modelos de regresión lineal múltiple, $R^2 > Adj.R^2$. Por eso, en modelos múltiples es preferible evaluar la bondad de ajuste en base al estadístico ajustado, en la medida que es un criterio más estricto para definir qué tan bien las variables explicativas en su conjunto permiten explicar la variabilidad de $y$.
 
 ¿Por qué sucede todo esto al incorporar una nueva variable explicativa? Para comprenderlo, recurriremos al concepto de **parcialización**.
 
